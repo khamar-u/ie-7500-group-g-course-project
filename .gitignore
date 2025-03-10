@@ -19,8 +19,7 @@ models/best_logreg_model.pkl
 models/fine_tuned_bert/
 
 # Ignore results files
-results/confusion_matrix.png
-results/roc_curve.png
+results/
 
 # Ignore log files
 logs/
@@ -32,3 +31,6 @@ Thumbs.db
 # Ignore IDE specific files
 .vscode/
 .idea/
+
+# Ignore any zip files
+*.zip
