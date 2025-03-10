@@ -6,10 +6,22 @@ This project aims to detect fake news using Natural Language Processing (NLP) te
 ## Directory Structure
 ie-7500-group-g-course-project/ ├── README.md ├── .gitignore ├── src/ │ ├── data_loading_and_preprocessing.py │ ├── tfidf_baseline_model.py │ └── bert_fine_tuning.py ├── data/ │ ├── True.csv │ └── Fake.csv ├── models/ │ ├── best_logreg_model.pkl │ └── fine_tuned_bert/ │ ├── config.json │ ├── pytorch_model.bin │ └── tokenizer_config.json ├── docs/ │ └── documentation.md
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/khamar-u/ie-7500-group-g-course-project.git
-   cd ie-7500-group-g-course-project
-2. Install the required packages:
-   pip install -r requirements.txt
+## Data Loading and Preprocessing
+
+The script `data_loading_and_preprocessing.py` loads and preprocesses the news datasets, including cleaning the text and combining the datasets.
+
+## Model Training
+
+### Baseline Model
+
+The script `tfidf_baseline_model.py` trains a logistic regression model with hyperparameter tuning using TF-IDF features.
+
+### Advanced Model
+
+The script `bert_fine_tuning.py` fine-tunes a BERT model for classification.
+
+## Requirements
+
+Install the required packages using:
+```bash
+pip install -r requirements.txt
