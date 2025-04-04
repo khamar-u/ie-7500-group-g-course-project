@@ -12,7 +12,7 @@ ie-7500-group-g-course-project/ ├── README.md ├── .gitignore ├─�
 
 ## Data Loading, Preprocessing, and Model Training
 
-### Notebook: `NLP_Project.ipynb`
+### Notebook: `NLP_project.pdf`
 
 #### Overview
 
@@ -167,7 +167,7 @@ Open the notebook and run the cells to execute the data loading, preprocessing, 
 ```bash
 jupyter notebook notebooks/NLP_Project.ipynb```
 
-The notebook `NLP_Project.ipynb` performs the following tasks:
+The notebook `NLP_Project.pdf` performs the following tasks:
 1. Loads and preprocesses the news datasets.
 2. Trains a baseline logistic regression model using TF-IDF features.
 3. Fine-tunes a BERT model for classification.
